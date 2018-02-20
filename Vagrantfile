@@ -4,6 +4,7 @@ Vagrant.configure('2') do |config|
   config.ssh.username = 'ubuntu'  
   config.ssh.private_key_path = ENV['OS_SSH_PRIVATE_KEY_PATH']
   config.vm.provision "docker"
+  config.vm.provision "docker_compose"
   config.vm.provider :openstack do |os, override|
     os.identity_api_version = ENV['OS_IDENTITY_API_VERSION']
     os.openstack_auth_url = ENV['OS_AUTH_URL']
