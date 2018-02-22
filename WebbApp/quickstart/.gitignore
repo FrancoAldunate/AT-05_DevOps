@@ -2,3 +2,7 @@ build/*
 .idea/*
 .gradle/*
 *.iml
+*.jar
+*.properties
+*.bat
+gradlew
