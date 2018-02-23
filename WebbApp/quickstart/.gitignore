@@ -4,5 +4,3 @@ build/*
 *.iml
 *.jar
 *.properties
-*.bat
-gradlew
