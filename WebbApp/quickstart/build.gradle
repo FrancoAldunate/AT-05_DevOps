@@ -37,7 +37,7 @@ gretty {
 
 sonarqube {
     properties {
-        property "sonar.projectName", "TechZone Rest API"
-        property "sonar.projectKey", "tz:rest-api"
+        property "sonar.projectName", "WebApp Inspection"
+        property "sonar.projectKey", "tz:web-app"
     }
 }
