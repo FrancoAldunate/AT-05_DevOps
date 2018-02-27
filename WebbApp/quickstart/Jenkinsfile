@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+				rootDir: "WebbApp/quickstart/"
 				sh './gradlew clean build'
             }
         }
